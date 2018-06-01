@@ -1,0 +1,683 @@
+/* https://www.transparenttextures.com/ */
+/*tea image found on Mr-Wish.com and some on google */
+
+body {
+	min-height: 800px;
+	min-width: 5f00px;
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+}
+
+
+#PopBox{
+	position: absolute;
+	top: 1100px;
+}
+td{
+	border-style: dotted;
+	border-color: transparent;
+	outline-color: gray;
+	background-color: moccasin;
+	width: 100px;
+	height: 10px;
+	transition-duration: 5s;
+}
+td:hover{
+	background-color: crimson;
+	width: 100px;
+	height: 10px;
+	transition-duration: .09s;
+}
+
+
+#name{
+	color: lightsalmon;
+	text-align: center;
+}
+
+.title{
+	background-color: gray;
+}
+
+#Menu{
+	text-align: center;
+	font-size: 200%;
+	color: gold;
+	word-wrap: normal;	
+	float: right;
+}
+
+
+#Menu a{
+	color: gold;
+	display: inline-block;
+	width: 300px;
+	font-size: 20px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	text-decoration: none;
+	border-style: double;
+	transition-duration: 1s;
+
+}
+#Menu a:hover{
+	color: blue;
+	padding: 5px;
+	transition-duration: 1s;
+}
+#actualmenu{
+	border-style:double;
+	border-color: black;
+}
+
+#fruitteamenu{
+	float: left;
+	text-align: right;
+	width: 500px;
+}
+
+.size{
+	color: gold;
+	margin: 20px;
+	display: inline-block;
+}
+
+#size1{
+	position: relative;
+	top: -35px;
+}
+.Maintea{
+	color: lightgreen;
+}
+
+.teaname{
+	float: left;
+	color: yellow;
+}
+.price{
+	display: inline-block;
+	margin: 45px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+#wishP{
+	color: pink;
+	position: relative;
+	top:-40px;
+}
+#colorfulP{
+	color: pink;
+	position: relative;
+	top: -20px;
+}
+#orangeP{
+	color: pink;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+#orangeP2{
+	color: pink;
+	position: relative;
+	top: 0px;
+	left: -20px;    
+}
+
+#grapefruitP{
+	color: pink;
+	position: relative;
+	top: 20px;
+}
+#grapefruitP2{
+	color: pink;
+	position: relative;
+	top: 20px;
+	left: -20px;
+}
+
+#lemonblackP{
+	color: pink;
+	position: relative;
+	top: 40px;
+	left: 0px;
+}
+
+#lemonblackP2{
+	color: pink;
+	position: relative;
+	top: 40px;
+	left: -20px;
+}
+
+#lemongreenP{
+	color: pink;
+	position: relative;
+	top: 60px;
+}
+#lemongreenP2{
+	color: pink;
+	position: relative;
+	top: 60px;
+	left: -20px;
+}
+
+#passionP{
+	color: pink;
+	position: relative;
+	top: 80px;
+}
+#passionP2{
+	color: pink;
+	position: relative;
+	top: 80px;
+	left: -20px;
+}
+
+#kumquatP{
+	color: pink;
+	position: relative;
+	top: 100px;
+}
+
+#kumquatP2{
+	color: pink;
+	position: relative;
+	top: 100px;
+	left: -20px;
+}
+#honeyP{
+	color: pink;
+	position: relative;
+	top: 120px;
+}
+
+#MilkTea{
+	position: absolute;
+	top: 500px;
+	width: 500px;
+}
+
+#size2{
+	position: relative;
+	top: -35px;
+	float: right;
+}
+
+#Wow1{
+	color: pink;
+	width: 0px;
+	position: relative;
+	top: -40px;
+	left: 50px;
+}
+
+#Wow2{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: -20px;
+}
+#Wow3{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 0px;
+}
+
+#Wow4{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 20px;
+}
+#Wow5{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 40px;
+}
+
+#Wow6{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 60px;
+}
+
+#Wow7{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 80px;
+}
+#Wow8{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 100px;
+}
+#Wow9{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 120px;
+}
+#Wow10{
+	width: 0px;
+	color: pink;
+	position: relative;
+	left: 50px;
+	top: 140px;
+}
+#sparklingbabo{
+	position: relative;
+	width: 400px;
+	top: -105px;
+	right: -600px;
+}
+
+
+#size3{
+	position: relative;
+	top: -35px;
+	float: right;
+}
+
+#Babo1{
+	color: pink;
+	position: relative;
+	top: -40px;
+	left: 55px;
+}
+#Babo2{
+	color: pink;
+	position: relative;
+	top: 0px;
+	left: -62px;
+}
+#Babo3{
+	color: pink;
+	position: relative;
+	top: 20px;
+	left: 55px;
+}
+
+#DicedFruitTea{
+	width: 600px;
+	position: relative;
+	left: 1100px;
+	top: -590px;
+}
+
+#diced{
+	width: 200px;
+}
+#size4{
+	position: relative;
+	top: -35px;
+}
+#diced1{
+	color: pink;
+	position: relative;
+	top: -40px;
+	right: 10px;
+}
+#diced2{
+	color: pink;
+	position: relative;
+	top: -20px;
+	right: 10px;
+}
+#diced3{
+	color: pink;
+	position: relative;
+	top: -1px;
+	right: 10px;
+}
+#diced4{
+	color: pink;
+	position: relative;
+	top: 18px;
+	right: 10px;
+}
+#diced5{
+	color: pink;
+	position: relative;
+	top: 38px;
+	right: -10px;
+}
+#diced6{
+	color: pink;
+	position: relative;
+	top: 58px;
+	right: -10px;
+}
+#diced7{
+	color: pink;
+	position: relative;
+	top: 78px;
+	right: -10px;
+}
+
+#Smoothies{
+	position: relative;
+	right: -890px;
+	top: -500px;
+}
+
+#size5{
+	position: relative;
+	top: -35px;	
+	right: -75px;
+}
+
+#smoothies1{
+	color: pink;
+	position: relative;
+	top: -38px;
+	right: -60px;
+}
+#smoothies2{
+	color: pink;
+	position: relative;
+	top: 0;
+	right: 58px;
+}
+#smoothies3{
+	color: pink;
+	position: relative;
+	top: 38px;
+	right: 175px;
+}
+#smoothies4{
+	color: pink;
+	position: relative;
+	top: 75px;
+	right: 292px;
+}
+#smoothies5{
+	color: pink;
+	position: relative;
+	top: 110px;
+	right: 409px;
+}
+#smoothies6{
+	color: pink;
+	position: relative;
+	top: 150px;
+	right: 526px;
+}
+#smoothies7{
+	color: pink;
+	position: relative;
+	top: 185px;
+	right: 644px;
+}
+#smoothies8{
+	color: pink;
+	position: relative;
+	top: 222px;
+	right: 760px;
+}
+
+/*At this point in time, sunny.exe has stopped working*/
+
+
+
+#teapic{
+	position: absolute;
+	top: 120px;
+	left: 650px;
+	width: 300px;
+
+}
+
+.example{
+
+	position: absolute;
+	top: 600px;
+	margin-left: 600px;
+	width: 400px;
+	height: 400px;
+}
+.example2{
+
+	position: absolute;
+	top: 100px;
+	margin-left: 600px;
+	width: 400px;
+	height: 400px;
+}
+.example3{
+
+	position: absolute;
+	top: 550px;
+	margin-left: 00px;
+	width: 400px;
+	height: 400px;
+}
+.example4{
+	position: absolute;
+	top: 500px;
+	margin-left: -500px;
+	width: 400px;
+	height: 400px;
+}
+.example5{
+	position: absolute;
+	top: 140px;
+	margin-left: -500px;
+	width: 400px;
+	height: 400px;
+}
+#op:hover ~ .example {
+	background-image: url(Websiteimages/Wishspecial.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#op2:hover ~ .example {
+	background-image: url(Websiteimages/Colorful.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op3:hover ~ .example {
+	background-image: url(Websiteimages/orange.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op4:hover ~ .example {
+	background-image: url(Websiteimages/grapegreen.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op5:hover ~ .example {
+	background-image: url(Websiteimages/lemon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op6:hover ~ .example {
+	background-image: url(Websiteimages/lemon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op7:hover ~ .example {
+	background-image: url(Websiteimages/passion.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op8:hover ~ .example {
+	background-image: url(Websiteimages/kumquat.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#op9:hover ~ .example {
+	background-image: url(Websiteimages/honey.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#kl:hover ~ .example2 {
+	background-image: url(Websiteimages/milktea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl2:hover ~ .example2 {
+	background-image: url(Websiteimages/milktea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl3:hover ~ .example2 {
+	background-image: url(Websiteimages/milktea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl4:hover ~ .example2 {
+	background-image: url(Websiteimages/matcha.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl5:hover ~ .example2 {
+	background-image: url(Websiteimages/Cocoa.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl6:hover ~ .example2 {
+	background-image: url(Websiteimages/oolong.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl7:hover ~ .example2 {
+	background-image: url(Websiteimages/milktea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl8:hover ~ .example2 {
+	background-image: url(Websiteimages/Cocoa.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl9:hover ~ .example2 {
+	background-image: url(Websiteimages/milktea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#kl10:hover ~ .example2 {
+	background-image: url(Websiteimages/milktea.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#sp:hover ~ .example3 {
+	background-image: url(Websiteimages/peachbabo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#sp2:hover ~ .example3 {
+	background-image: url(Websiteimages/mangopass.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#sp3:hover ~ .example3 {
+	background-image: url(Websiteimages/applelemon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+#di:hover ~ .example4 {
+	background-image: url(Websiteimages/peachteap.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#di2:hover ~ .example4 {
+	background-image: url(Websiteimages/appleteap.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#di3:hover ~ .example4 {
+	background-image: url(Websiteimages/mangoteap.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#di4:hover ~ .example4 {
+	background-image: url(Websiteimages/smoothies.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#di5:hover ~ .example4 {
+	background-image: url(Websiteimages/kumquatfiber.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#di6:hover ~ .example4 {
+	background-image: url(Websiteimages/smoothies.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#di7:hover ~ .example4 {
+	background-image: url(Websiteimages/orangefiber.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+#sm:hover ~ .example5 {
+	background-image: url(Websiteimages/kiwisorbet.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm2:hover ~ .example5 {
+	background-image: url(Websiteimages/lemonsorbet.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm3:hover ~ .example5 {
+	background-image: url(Websiteimages/smoothies.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm4:hover ~ .example5 {
+	background-image: url(Websiteimages/mangofrsorbet.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm5:hover ~ .example5 {
+	background-image: url(Websiteimages/smoothies.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm6:hover ~ .example5 {
+	background-image: url(Websiteimages/mangofrsorbet.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm7:hover ~ .example5 {
+	background-image: url(Websiteimages/kiwisorbet.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#sm8:hover ~ .example5 {
+	background-image: url(Websiteimages/smoothies.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#td{
+	background-color: white;
+}
+
+
+
+

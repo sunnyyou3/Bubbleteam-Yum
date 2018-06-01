@@ -1,0 +1,218 @@
+/* https://www.transparenttextures.com/ */
+
+
+
+body {
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+}
+
+
+#Overpictures{
+	background-image: url(Websiteimages/yes3.JPG);
+}
+
+td{
+	border-style: dotted;
+	border-color: transparent;
+	outline-color: gray;
+	background-color: transparent;
+	width: 100px;
+	height: 10px;
+	transition-duration: 5s;
+}
+td:hover{
+	background-color: crimson;
+	width: 100px;
+	height: 10px;
+	transition-duration: .09s;
+}
+
+
+#name{
+	color: lightsalmon;
+	text-align: center;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 60px;
+}
+#bb2{
+	color: transparent;
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 90px;
+	margin-left: 400px;
+}
+#name:hover ~ #bb2{
+	color: pink;
+}
+
+.title{
+	background-color: gray;
+}
+
+.NewItem{
+	display: inline-block;
+	text-align: center;    
+	border-style: solid;
+	border-color: cadetblue;
+	position: relative;
+	left: 130px;
+}
+
+.NewItem img{
+	margin: 25px;
+	height: 400px;
+	background-image: url(Websiteimages/new-icon-1497910_960_720.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 100px;
+}
+
+.NewItem img:hover{
+	background-color: yellow;
+	transition-duration: 1s;
+}
+.NewItem h4{
+	position: relative;
+	bottom: 50px;
+	color: pink;
+}
+
+#bao{
+	width: 220px;
+	
+}
+#bao2{
+	width: 220px;
+}
+#Menu{
+	text-align: center;
+	font-size: 200%;
+	color: gold;
+	word-wrap: normal;	
+	float: right;
+}
+
+
+#Menu a{
+	color: gold;
+	display: inline-block;
+	width: 300px;
+	font-size: 20px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	text-decoration: none;
+	border-style: double;
+	transition-duration: 1s;
+
+}
+#Menu a:hover{
+	color: blue;
+	padding: 5px;
+	transition-duration: 1s;
+
+}
+#whitespace{
+	height: 100px;
+}
+
+#overpicturesRight{
+	background-image: url(Websiteimages/yes3.JPG);
+	background-position: right;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+#overpicturesLeft{
+	background-image: url(Websiteimages/yes.JPG);
+	background-position: left;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#gallery {
+	text-align: center;
+}
+
+#gallery a{
+	color: mediumseagreen;
+	text-align: left;
+	text-decoration: none;
+}
+.card {
+	display: inline-block;
+	min-height: 580px;
+	min-width: 300px;
+	max-width: 300px;
+	border-style: dashed;
+	border-color: dimgrey;
+}
+.des{
+	z-index: 4;
+	position: relative;
+	bottom: 0;
+	width: 300px;
+	height: 500px;
+}
+
+
+.des p{
+	font-family:"Lucida Console", Times, serif;
+	color: transparent;
+	float: left;
+	position: relative;
+	margin: 5px;
+	text-align: center;   
+	vertical-align:middle;
+	text-decoration:none;
+	transition-duration: 1s;
+	height: 500px;
+}
+.des p:hover{
+	color: white;
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+	transition-duration: 1s;
+	opacity: .80;
+}
+
+#milkTea{
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");	
+	background-image: url(Websiteimages/milktea.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position:top;
+}
+#fruittea{
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");	
+	background-image: url(Websiteimages/fruittea.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: top;
+
+}
+
+#smoothies{
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");	background-image: url(Websiteimages/smoothies.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: top;
+}
+
+#fruitvinegar{
+	background-color: #0f0900;
+	background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");	background-image: url(Websiteimages/fruitvinegar.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: top;
+}
+.card:hover {
+	cursor: pointer;
+	border-color: blue;
+}
+
+
+
